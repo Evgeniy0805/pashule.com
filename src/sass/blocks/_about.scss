@@ -1,0 +1,26 @@
+.about {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        display: inline-block;
+        position: relative;
+    }
+    &__descr {
+        padding: 75px;
+        width: 52%;
+    }
+    &__text {
+        margin-top: 50px;
+        font-weight: 300;
+        span {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    &__photo {
+        display: block;
+        width: 48%;
+    }
+}
