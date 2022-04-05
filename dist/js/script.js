@@ -2,18 +2,18 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // menu
 
-    const hamburger = document.querySelector('.hamburger'),
-          menu = document.querySelector('.menu'),
-          menuOverlay = document.querySelector('.overlay'),
-          menuLine = document.querySelectorAll('.hamburger__line');
+    // const hamburger = document.querySelector('.hamburger'),
+    //       menu = document.querySelector('.menu'),
+    //       menuOverlay = document.querySelector('.overlay'),
+    //       menuLine = document.querySelectorAll('.hamburger__line');
 
-    hamburger.addEventListener('click', () => {
-        menu.classList.toggle('menu__show');
-        menuOverlay.classList.toggle('overlay_show');
-        menuLine.forEach( item => {
-            item.classList.toggle('hamburger__line_close');
-        });
-    });
+    // hamburger.addEventListener('click', () => {
+    //     menu.classList.toggle('menu__show');
+    //     menuOverlay.classList.toggle('overlay_show');
+    //     menuLine.forEach( item => {
+    //         item.classList.toggle('hamburger__line_close');
+    //     });
+    // });
 
     // divider
 

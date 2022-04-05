@@ -11,26 +11,41 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="hamburger">
-        <div class="hamburger__active">
-            <div class="hamburger__line"></div>
-            <div class="hamburger__line"></div>
-            <div class="hamburger__line"></div>
-        </div>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__menu">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Про меня</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Что я предлагаю</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Видео о маршруте</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Фотогалерея</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Даты и стоимость</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Программа по дням</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Что взять с собой</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="" class="navigation__link">Подписаться</a>
+                </li>
+            </ul>
+        </nav>
     </div>
-    <nav class="menu">
-        <ul class="menu__list">
-            <li class="menu__item">Про меня</li>
-            <li class="menu__item">Что я предлагаю</li>
-            <li class="menu__item"></li>
-            <li class="menu__item"></li>
-            <li class="menu__item"></li>
-            <li class="menu__item"></li>
-            <li class="menu__item"></li>
-            <li class="menu__item"></li>
-        </ul>
-    </nav>
-    <div class="overlay"></div>
     <section class="promo">
         <div class="promo__overlay"></div>
         <div class="container">
